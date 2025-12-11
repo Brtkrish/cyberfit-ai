@@ -47,7 +47,7 @@ export default function Home() {
 
     try {
       // Ensure this URL is your LIVE Render URL
-      const response = await fetch('https://cyberfit-api.onrender.com/generate-plan', {
+      const response = await fetch('https://cyberfit-ai.onrender.com//generate-plan', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
