@@ -1,0 +1,9 @@
+# Secrets
+.env
+
+# Python Junk
+__pycache__/
+*.pyc
+
+# ML Models (Too big for Git)
+*.pkl
